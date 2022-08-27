@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+p{
+   color:magenta; 
+}
+#texto {
+    color: red;
+    font-family: 'Helvetica';
+    font-size: 32px;
+}
+.titulo {
+    color: blue;
+    font-family: 'Verdana';
+    background-color:rgba(245,242,66,.5);
+    width: 500px;
+    height: 500px;
+    border: 2px dashed red;
+    border-radius: 15px
+    /* TIPOS DE BORDA:solid dotted dashed double groove inset outset ridge*/
+}
+
+body{
+    background-image: url("../assets/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

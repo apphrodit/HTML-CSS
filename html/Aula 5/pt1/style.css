@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.retangulo {
+width: 15
+0px;
+height: 150px;
+background-color: white;
+border-radius: 75px;
+position: static;
+}
+
+#segundo {
+    position:absolute;
+ border: 2px solid black;
+    right: 0px;
+
+} 
+
+#retangulo{
+    border: 2px solid gray;
+    
+}
+
+
+
+
+
+#terceiro{
+    background-color:  red;
+    position: sticky;
+    top: 20px;
+}

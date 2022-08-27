@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+            <head>
+                    <meta charset="UTF-8" /> 
+                    <title>Exercício02</title>
+            </head>
+            <body>
+                    <b>Manutenção De Usuários Do Sistema Interno</b>
+                    <br>
+                    <br>
+                    <br>
+                    <form action="pag2.hmtl" method="">
+                    <label for="login"><b>Login</b></label>
+                    <input type="text" id="login" required/>
+                    <br>
+                    <br>
+                    <label for="senha"><b>Senha</b></label>
+                    <input id="senha" type="password" required/>
+                    <br>
+                    <br>
+                    <label for="status"><b>Status</b></label>
+                    <select id="status">
+                        <option>Inativo</option>
+                        <option>Ativo</option>
+                    </select>
+                    <br>
+                    <br>
+                    <legend><b>Tipo</b></legend>
+                    <input type="radio" id="Técnico" name="Tipo"/>
+                    <label for="Técnico"><b>Técnico</b></label>
+                    <input type="radio" id="professor" name="Tipo"/>
+                    <label for="professor"><b>Professor</b></label>
+                    <input type="radio" id="aluno" name="Tipo"/>
+                    <label for="aluno"><b>Aluno</b></label>
+                    <br>
+                    <br>
+                    <label for="datac"><b>Data Criação</b></label>
+                    <br>
+                    <br>
+                    <input id="datac" type="date"/>
+                    <legend><b>Perfil</b></legend>
+                    <input type="radio" id="Convidado" name="Perfil">
+                    <label for="Convidado"><b>Convidado</b></label>
+                    <input type="radio" id="Administrador" name="Perfil">
+                    <label for="Administrador"><b>Administrador</b></label>
+                    <br>
+                    <br>
+                    <label for="obs"><b>Observações</b></label>
+                    <br>
+                    <textarea id="obs"></textarea>
+
+
+
+                     <legend><b>Módulos</b></legend>
+                     <input type="checkbox" id="Compras" />
+                     <label for="Compras"><b>Compras</b></label>
+                     <input type="checkbox" id="Biblioteca" />
+                     <label for="Biblioteca"><b>Biblioteca</b></label>
+                     <input type="checkbox" id="Acadêmico" />
+                     <label for="Acadêmico"><b>Acadêmico</b></label>
+                     <br>
+                     <input type="checkbox" id="Documentação"/>
+                     <label for="Documentação"><b>Documentação</b></label>
+                     <input type="checkbox" id="Recursos Humanos" />
+                     <label for="Recursos Humanos"><b>Recursos Humanos</b></label>
+                     <br>
+                     <br>
+                     <input type="reset" Value="Limpar Form"/>
+                     <input type="submit" Value="Cadastrar" />
+                    </form>
+            </body>     
+
+
+
+            </html>

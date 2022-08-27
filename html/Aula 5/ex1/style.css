@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+.circulo{
+    position: static;
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+#primeiro{  
+    position:absolute;
+    left: 0px;
+    bottom:0px;
+}
+#segundo{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+#terceio{
+    position:absolute;
+    left:100px;
+    bottom:0px;  
+}

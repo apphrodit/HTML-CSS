@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulário Elaborado</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+    <br>
+        <form>
+                <fieldset>
+                            <legend>Dados Pessoais</legend>
+                            <label for="nome">Nome:   </label>
+                            <input type="text" id ="nome"name="nome" />
+                            <br>
+                            <label for="endereco">Endereco:</label>
+                            <input type="text" id="enderco"name="endereco" />
+                            <br>
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" name="cidade"/>
+                            <br>
+                            <lable for="estado">Estado:</lable>
+                            <select id="estado">
+                                <option>São Paulo</option>
+                                <option>Minas Gerais</option>
+                                <option>Rio De Janeiro</option>
+                                <option>Acre</option>
+                            </select>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                            <legend>Dados Profissionais</legend>
+                            <label for="natcarg">Natureza Do Cargo</label>
+                            <br>
+                            <input type="radio" id="ger" name="Dados Profissionais" />                           
+                            <label for="ger">Gêrencia</label>
+                            <input type="radio" id="fin" name="Dados Profissionais" />
+                            <label for="fin">Financeiro</label>
+                            <input type="radio" id="recep" name="Dados Profissionais">
+                            <label for="recep">Recepção</label>
+                            <input type="radio" id="Admin" name="Dados Profissionais" />
+                            <label for="Admin">Administrativo</label>
+                            <input type ="radio" id ="jur" name="Dados Profissionais"/>
+                            <label for="jur">Jurídico</label>
+                            <br>
+                            <br>
+                            <label for="ai">Área De Interesse</label>
+                            <br>
+                            <input type="checkbox" id="computacao" name="computacao" />
+                            <label for="computacao">Computação</label>
+                            <input type="checkbox" id="biologia" />
+                            <label for="biologia">Biologia</label>
+                            <input type="checkbox" id="meioamb" name="computacao">
+                            <label for="meioamb">Meio Ambiente</label>
+                            <input type="checkbox" id="engenharia" name="engenharia" />
+                            <label for="engenharia">Engenharia</label>
+                            <input type="checkbox" id="historia" name="historia" />
+                            <label for="historia">História</label>
+                            <br>
+                            <br> 
+                            <label for="minicrr">Mini-Cúrriculo:</label>
+                            <textarea id="minicrr"></textarea>
+                </fieldset>
+                <br>
+                            <input type="submit" value="Enviar Form" />
+                            <input type="reset" value="Limpar" />
+        </form>
+    </body>
+</html>
