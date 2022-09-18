@@ -27,10 +27,10 @@
     background-color: cyan;
 }
 .retangulo3{
-    width: 15vw;
-    height: 5vh;
+    width:20vw;
+    height: 6vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color:blanchedalmond;
+    justify-content: right;
+    background-color: blanchedalmond;
 }

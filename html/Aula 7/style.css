@@ -12,7 +12,7 @@
     display:flex;  /*Flex define uma direção em linha para os elementos filhos*/
     align-items: center; /*Flex End Alinha os itens na vertical colocando os mesmos embaixo.
     Flex Start alinha colocando os itens no topo, e center ao meio*/
-    justify-content: space-evenly; /*Alinha oos itens na horizontal*/
+    justify-content: space-evenly; /*Alinha os itens na horizontal*/
     /*spacebetween separa os itens*/
     /*spacearound  separa os itens e a borda*/
     /*spaceevenly  utilizando a mesma proporção aplica o espaçamento nos itens e na borda*/
