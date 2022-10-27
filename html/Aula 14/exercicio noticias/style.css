@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 71%);
+    font-family: 'Pangolin', cursive;
+    color: white;
+}
+#menu{
+    margin-left: 30px;
+    width: 71px;
+    height:71px;
+    cursor: pointer;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#detetive{
+    width: 190px;
+    height: 145px;
+    opacity: 35%;
+}
+main{
+    width: 100vw;
+    height: 200vh;
+    display: grid;
+    background-image: url(./assets/stage.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.caixa1{
+    
+    width: 382px;
+    /*margin-top:30px;*/
+    height: 862px;
+    background-color:#A8A4A4;
+    opacity: 90%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.caixa2{
+    width:382px;
+    height:862px;
+    background-color:#A8A4A4;
+    opacity:90%;
+    border-radius:10px 10px 10px 10px;
+}
