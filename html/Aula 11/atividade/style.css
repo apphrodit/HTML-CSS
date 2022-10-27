@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#cabecalho{
+    margin: auto;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    font-family:'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header > p{
+    font-size: 20px;
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0 350px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.fundo{
+    width:100vw;
+    height: 62vh;
+    background-image: url(./assets/img-jogo.jpg);
+    background-position-y: center ;
+}
+
+.fundo > div{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 20vw;
+    height: 35vh;
+    margin-left: 280px;
+}
+
+#tlou{
+    width: auto;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+
+
+
